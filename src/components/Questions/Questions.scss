@@ -20,3 +20,21 @@
 	--smallestFontSize: 0.75rem;
 	--borderRadius: 3rem;
 }
+
+.accordianContainer {
+	.title {
+		font-size: var(--normalFontSize);
+		align-items: center;
+		padding: 1rem;
+		border-radius: 10px;
+		justify-content: space-between;
+		background: var(--primaryColorLight);
+
+		span {
+			cursor: pointer;
+			.icon {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}

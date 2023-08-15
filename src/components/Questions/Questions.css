@@ -17,4 +17,19 @@
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
   --borderRadius: 3rem;
+}
+
+.accordianContainer .title {
+  font-size: var(--normalFontSize);
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: space-between;
+  background: var(--primaryColorLight);
+}
+.accordianContainer .title span {
+  cursor: pointer;
+}
+.accordianContainer .title span .icon {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=Questions.css.map */
