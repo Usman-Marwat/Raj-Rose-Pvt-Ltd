@@ -1,18 +1,21 @@
 import React from 'react';
-import { BsArrowDownCircle } from 'react-icons/bs';
+import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs';
 
-function Accordian() {
+function Accordian({ title, description, active, onActive }) {
 	return (
 		<div className="accordianContainer">
-			<span className="title">
-				Ho do I choose the right travel destination for me?
-				<span>
-					<BsArrowDownCircle className="icon" />
+			<span className={(active === title ? 'activeTitle' : '') + ' title flex'}>
+				{title}
+				<span onClick={() => onActive(title)}>
+					{active === title ? (
+						<BsArrowDownCircle className="icon" />
+					) : (
+						<BsArrowUpCircle className="icon" />
+					)}
 				</span>
 			</span>
-			<p>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe pariatur
-				ea architecto est laudantium dignissimos totam quae itaque a impedit.
+			<p className={(active === title ? 'show' : '') + ' description'}>
+				{description}
 			</p>
 		</div>
 	);

@@ -32,4 +32,27 @@
 }
 .accordianContainer .title span .icon {
   font-size: 1.2rem;
+  color: var(--blackColor);
+}
+.accordianContainer .description {
+  font-size: var(--smallFontSize);
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  white-space: pre-line;
+  height: 0px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  padding: 0 1rem;
+  background: var(--cardColor);
+  border-radius: 0 0 10px 10px;
+  color: var(--blackColor);
+}
+.accordianContainer .show {
+  height: 140px;
+  opacity: 1;
+}
+.accordianContainer .activeTitle {
+  background: var(--primaryColorLight);
+  border-radius: 10px 10px 0 0;
 }/*# sourceMappingURL=Questions.css.map */
