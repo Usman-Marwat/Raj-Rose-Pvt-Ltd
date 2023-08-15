@@ -14,7 +14,7 @@ function Navbar() {
 	return (
 		<div className="navBar">
 			<div className="logoDiv">
-				<GiRose className="icon" />
+				<GiRose className="icon" color="red" size={30} />
 				<span>Raj Rose</span>
 			</div>
 
