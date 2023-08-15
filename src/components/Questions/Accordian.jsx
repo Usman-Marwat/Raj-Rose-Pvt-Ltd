@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Accordian() {
-	return <div>Accordian</div>;
+	return <div className="accordianContainer"></div>;
 }
 
 export default Accordian;
