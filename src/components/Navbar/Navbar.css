@@ -29,6 +29,7 @@
   border-bottom: 1.5px solid var(--primaryColor);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+  z-index: 1;
 }
 .navBar .logoDiv {
   display: flex;
