@@ -18,8 +18,9 @@ function App() {
 			<Destinations />
 			<Portfolio />
 			<Reviews />
-			{/* <Questions />
-          <Footer /> */}
+			<Questions />
+			{/* <Subscribe />
+			<Footer /> */}
 		</div>
 	);
 }
