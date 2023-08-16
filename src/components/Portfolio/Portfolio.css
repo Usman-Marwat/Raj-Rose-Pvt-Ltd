@@ -35,6 +35,9 @@
 }
 
 @media screen and (min-width: 480px) {
+  .portfolio .secContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .portfolio .secContainer .leftContent .secHeading h3 {
     font-size: var(--h2FontSize);
   }
@@ -83,7 +86,7 @@
 }
 @media screen and (min-width: 820px) {
   .portfolio .secContainer {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .portfolio .leftContent .secHeading h3 {
     font-size: var(--h2FontSize);
@@ -103,6 +106,7 @@
 }
 @media screen and (min-width: 1240px) {
   .portfolio .secContainer {
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
   }
   .portfolio .secContainer .leftContainer .secHeading h3 {
