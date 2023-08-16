@@ -1,8 +1,12 @@
 import React from 'react';
+import { AiOutlineSwapRight } from 'react-icons/ai';
 
 import './Home.css';
 import Video from '../../assets/video.mp4';
-import { AiOutlineSwapRight } from 'react-icons/ai';
+import destination1 from '../../assets/destination1.jpg';
+import destination2 from '../../assets/destination2.jpg';
+import destination3 from '../../assets/destination3.jpg';
+import destination4 from '../../assets/destination4.jpg';
 
 function Home() {
 	return (
@@ -26,10 +30,10 @@ function Home() {
 				<div className="content">
 					<h3>Popular Places</h3>
 					<div className="images flex">
-						{/* <img src='' alt=''/>
-            <img src='' alt=''/>
-            <img src='' alt=''/>
-            <img src='' alt=''/> */}
+						<img src={destination1} alt="Destination Image" />
+						<img src={destination2} alt="Destination Image" />
+						<img src={destination3} alt="Destination Image" />
+						<img src={destination4} alt="Destination Image" />
 					</div>
 				</div>
 			</div>
