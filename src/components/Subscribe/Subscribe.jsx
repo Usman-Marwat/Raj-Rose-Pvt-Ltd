@@ -1,13 +1,12 @@
 import React from 'react';
 
 import './Subscribe.css';
-import womanCalling from '../../assets/womanCalling.png';
+import womanCalling from '../../assets/womanCalling.jpg';
 
 function Subscribe() {
 	return (
 		<div className="subscribe section container">
 			<div className="secContainer grid">
-				<img src={womanCalling} alt="lady calling" />
 				<div className="textDiv">
 					<h4>Best Way To Start Your Journey</h4>
 					<p>
@@ -16,6 +15,7 @@ function Subscribe() {
 					</p>
 					<button className="btn">Start Here</button>
 				</div>
+				<img src={womanCalling} alt="lady calling" />
 			</div>
 		</div>
 	);
