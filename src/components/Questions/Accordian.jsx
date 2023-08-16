@@ -4,9 +4,12 @@ import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs';
 function Accordian({ title, description, active, onActive }) {
 	return (
 		<div className="accordianContainer">
-			<span className={(active === title ? 'activeTitle' : '') + ' title flex'}>
+			<span
+				className={(active === title ? 'activeTitle' : '') + ' title flex'}
+				onClick={() => onActive(title)}
+			>
 				{title}
-				<span onClick={() => onActive(title)}>
+				<span>
 					{active === title ? (
 						<BsArrowDownCircle className="icon" />
 					) : (

@@ -41,12 +41,12 @@ function Questions() {
 					/>
 				</div>
 
-				<div className="from">
+				<div className="form">
 					<div className="secHeading">
 						<h4>Do You Have Any Specific Question?</h4>
 						<p>
 							Please fill the form below and aur dedicated team will get in
-							touch with you
+							touch with you as soon as possible.
 						</p>
 					</div>
 					<div className="formContent grid">

@@ -55,4 +55,39 @@
 .accordianContainer .activeTitle {
   background: var(--primaryColorLight);
   border-radius: 10px 10px 0 0;
+}
+
+.questions .secHeading h3,
+.questions .secHeading h4 {
+  padding-bottom: 1.5rem;
+}
+.questions .secHeading p {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+  padding-bottom: 1rem;
+}
+.questions .form .formContent {
+  gap: 1rem;
+}
+.questions .form .formContent input,
+.questions .form .formContent textarea {
+  background: var(--cardColor);
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: var(--borderRadius);
+}
+.questions .form .formContent input::-moz-placeholder, .questions .form .formContent textarea::-moz-placeholder {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+}
+.questions .form .formContent input::placeholder,
+.questions .form .formContent textarea::placeholder {
+  font-size: var(--smallFontSize);
+  color: var(--blackColor);
+}
+.questions .form .formContent textarea {
+  height: 100px;
+  border-radius: 10px;
 }/*# sourceMappingURL=Questions.css.map */
