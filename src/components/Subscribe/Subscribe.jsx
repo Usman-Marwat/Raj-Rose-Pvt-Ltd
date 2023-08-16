@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Subscribe.css';
-import womanCalling from '../../assets/womanCalling.jpg';
+import womanCalling from '../../assets/womanCalling.png';
 
 function Subscribe() {
 	return (

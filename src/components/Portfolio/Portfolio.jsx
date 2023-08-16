@@ -5,7 +5,8 @@ import './Portfolio.css';
 import protection from '../../assets/protection.png';
 import location from '../../assets/location.png';
 import chat from '../../assets/chat.png';
-import gridImage from '../../assets/grid-image.jpg';
+// import gridImage from '../../assets/grid-image.jpg';
+import portfolioImage from '../../assets/portfolioImage.png';
 
 function Portfolio() {
 	return (
@@ -65,7 +66,7 @@ function Portfolio() {
 				</div>
 
 				<div className="rightContent">
-					<img src={gridImage} style={{ borderRadius: 17 }} />
+					<img src={portfolioImage} style={{ borderRadius: 17 }} />
 				</div>
 			</div>
 		</div>
