@@ -129,24 +129,23 @@
 			}
 		}
 		.secContainer {
-			.grid {
-				grid-template-columns: repeat(2, 1fr);
-				align-items: flex-start;
-				gap: 2rem;
-				.form {
-					.formContent {
-						input,
-						textarea {
+			grid-template-columns: repeat(2, 1fr);
+			align-items: flex-start;
+			gap: 2rem;
+
+			.form {
+				.formContent {
+					input,
+					textarea {
+						font-size: var(--normalFontSize);
+						&::placeholder {
 							font-size: var(--normalFontSize);
-							&::placeholder {
-								font-size: var(--normalFontSize);
-								color: var(--blackColor);
-							}
+							color: var(--blackColor);
 						}
-						textarea {
-							height: 100px;
-							border-radius: 10px;
-						}
+					}
+					textarea {
+						height: 100px;
+						border-radius: 10px;
 					}
 				}
 			}
